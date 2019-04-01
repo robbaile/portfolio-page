@@ -13,6 +13,7 @@ class About extends Component {
             <div className="about-divider"></div>
             <p className="about-text">My name is Rob and I'm an Apprentice Software Engineer currently working at BGL Group in Peterborough.</p>
             <p className="about-text">For the past year I have been learning to code and I have loved every second of it. I am working towards a foundation degree which is supplied by Ada college in London and The Open University. </p>
+            <p className="about-text">I am passionate about design and technology. I am especially keen on User Centred Design as it meets the requirements of those using the tech rather than the developer/business having the ease.</p>
           </div>
           <div className="about-image">
             <img className="rob-image" src="./images/about.jpg" alt="rob"></img>
