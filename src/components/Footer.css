@@ -1,0 +1,18 @@
+.page-footer {
+    background-color: #fff;
+    height: 200px;
+    text-align: center;
+}
+
+.social-media {
+    padding-top: 30px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-icon {
+    height: 50px;
+}

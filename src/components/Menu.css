@@ -1,0 +1,60 @@
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border: 3px solid #4F5B66;
+    width: 50px;
+    height: 40px;
+}
+
+.bar {
+    display: block;
+    margin: 8px auto;
+    width: 80%;
+    height: 3px;
+    background-color: #4F5B66;
+    transition: 0.25s;
+}
+
+.menu-true .bar:first-child {
+    transform: rotate(45deg) translate(6px, 6px);
+    transform-origin: center;
+}
+
+.menu-true .bar:nth-child(2) {
+    display: none;
+}
+
+.menu-true .bar:last-child {
+    transform: rotate(-45deg) translate(1px, -1px);
+    transform-origin: center;
+}
+
+.display-menu-false {
+    display: none;
+}
+
+.display-menu-true {
+    background-color: #4F5B66;
+    position: absolute;
+    top: 20px;
+    right: 110px;
+    border: 3px solid #4F5B66;
+    width: 130px;
+}
+
+.display-menu-true ul {
+    padding: 0;
+}
+
+.display-menu-true a {
+    display: block;
+    text-decoration: none;
+    color: #C0C5CE;
+    padding-left: 5px;
+}
+
+.display-menu-true a:hover {
+    cursor: pointer;
+    color: #fff;
+}

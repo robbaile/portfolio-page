@@ -1,0 +1,63 @@
+.hire-section {
+    background-image: url("../images/hire-me.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+    z-index: -2;
+    background-color: #0097e6;
+    color: #4F5B66;
+}
+
+.hire-content-section {
+    position: absolute;
+
+    width: 50%;
+    height: 50%;
+
+    top:  0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hire-heading-section {
+    width: 40%;
+}
+
+.hire-divider {
+    margin-top: 10px; 
+    height: 3px;
+    width: 50px;
+    background-color: #C0C5CE;
+}
+
+.hire-text {
+    font-size: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul li::before {
+    color: #0097e6;  
+  
+    content: "\2022"; 
+  
+    font-size: 200%; 
+    padding-right: 1em; 
+    /* use em*/
+  
+    position: relative;
+    top: 5px; 
+    /* use em or % */
+  
+  }

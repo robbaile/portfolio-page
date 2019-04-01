@@ -1,0 +1,71 @@
+.portfolio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/mountains.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+    box-shadow: 0 16px 16px -2px #777;
+}
+
+.portfolio-card {
+    position: absolute;
+    
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 400px;
+
+    margin: 20px auto;
+    background-color: #fff;
+    
+    border-radius: 10px;
+    -webkit-box-shadow: 0 12px 8px -6px #777;
+    -moz-box-shadow: 0 12px 8px -6px #777;
+         box-shadow: 0 12px 8px -6px #777;
+
+    text-align: center;
+}
+
+.portfolio-heading {
+    padding: 40px 0 0 40px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.portfolio-divider {
+    margin: 10px 0 0 40px;
+    height: 3px;
+    width: 50px;
+    background-color: #C0C5CE;
+}
+
+.card-image {
+    display: block;
+    margin: 20px auto;
+    height: 200px;
+}
+
+.card-heading {
+    font-size: 20px;
+    color: #4F5B66
+}
+
+.card-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #4F5B66;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .card-image {
+        display: block;
+        margin: 20px auto;
+        height: 100px;
+    }
+}

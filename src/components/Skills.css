@@ -1,0 +1,80 @@
+.skill-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/coding.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+
+.skills-heading-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+    width: 30%;
+}
+
+.skills-heading {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.skill-image {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.skills-divider {
+    margin: 10px auto;
+    height: 3px;
+    width: 50px;
+    background-color: #C0C5CE;
+}
+
+.skills-divider--small {
+    margin: 10px auto;
+    height: 3px;
+    width: 20px;
+    background-color: #C0C5CE;
+}
+
+@media only screen and (max-width: 900px) {
+    .skill-section {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .skills {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .skill {
+        position: relative;
+        text-align: center;
+        width: 90%;
+        margin: none;
+    }
+
+    .skill-image {
+        height: 80px;
+        
+    }
+}

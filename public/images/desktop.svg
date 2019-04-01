@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 614">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #707070;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #c8c8c8;
+      }
+
+      .cls-3 {
+        fill: #da462e;
+      }
+
+      .cls-4 {
+        fill: #e6c311;
+      }
+
+      .cls-5 {
+        fill: #37b933;
+      }
+
+      .cls-7 {
+        fill: #8ac1ff;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(1639 -2325)">
+    <g id="Group_6" data-name="Group 6" transform="translate(433 -162)">
+      <g id="Rectangle_14" data-name="Rectangle 14" class="cls-1" transform="translate(-2072 2487)">
+        <rect class="cls-8" width="912" height="614" rx="20"/>
+        <rect class="cls-9" x="2.5" y="2.5" width="907" height="609" rx="17.5"/>
+      </g>
+      <g id="Rectangle_15" data-name="Rectangle 15" class="cls-2" transform="translate(-2072 2487)">
+        <path class="cls-8" d="M20,0H892a20,20,0,0,1,20,20v88a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z"/>
+        <path class="cls-9" d="M20,2.5H892A17.5,17.5,0,0,1,909.5,20v83a2.5,2.5,0,0,1-2.5,2.5H5A2.5,2.5,0,0,1,2.5,103V20A17.5,17.5,0,0,1,20,2.5Z"/>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(440 -561)">
+        <g id="Ellipse_6" data-name="Ellipse 6" class="cls-3" transform="translate(-2478 3084)">
+          <circle class="cls-8" cx="13.702" cy="13.702" r="13.702"/>
+          <circle class="cls-9" cx="13.702" cy="13.702" r="11.202"/>
+        </g>
+        <g id="Ellipse_7" data-name="Ellipse 7" class="cls-4" transform="translate(-2442.255 3084)">
+          <circle class="cls-8" cx="13.702" cy="13.702" r="13.702"/>
+          <circle class="cls-9" cx="13.702" cy="13.702" r="11.202"/>
+        </g>
+        <g id="Ellipse_8" data-name="Ellipse 8" class="cls-5" transform="translate(-2406.509 3084)">
+          <circle class="cls-8" cx="13.702" cy="13.702" r="13.702"/>
+          <circle class="cls-9" cx="13.702" cy="13.702" r="11.202"/>
+        </g>
+      </g>
+      <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-6" width="467" height="68" transform="translate(-1716 2662)"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-6" width="519" height="68" transform="translate(-1768 2771)"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-6" width="576" height="68" transform="translate(-1825 2879)"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-6" width="647" height="68" transform="translate(-1896 2987)"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-7" width="188" height="176" transform="translate(-2013 2662)"/>
+    </g>
+  </g>
+</svg>
